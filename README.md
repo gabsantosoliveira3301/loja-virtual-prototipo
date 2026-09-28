@@ -10,5 +10,5 @@ Como usar:
 - Produtos adicionados pelo formulário em `produtos.html` são salvos no `localStorage` e permanecem entre sessões no mesmo navegador.
 
 Observações:
-- Este é um protótipo local — senhas são armazenadas em texto no `localStorage` (não use em produção).
+- Este é um protótipo local — senhas são armazenadas em texto no `localStorage` (é teste de conceito, não é aplicavel em produção.).
 - Remoção do servidor: a versão atual não exige Node/npm.
