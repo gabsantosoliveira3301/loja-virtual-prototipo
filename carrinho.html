@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja virtual prototipo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="top-links">
+    <a href="produtos.html"><button>produtos</button></a>
+    <a href="carrinho.html"><button>carrinho</button> <span id="cartCount" class="cart-badge"></span></a>
+    <a href="login.html"><button>login</button></a>
+    <a href="cadastro.html"><button>cadastro</button></a>
+    <div id="userDisplay" style="margin-left:auto"></div>
+ </div>
+ <main class="container">
+      <h1>Carrinho</h1>
+      <section id="cartArea">
+         <div id="cartItems"></div>
+         <div id="cartSummary">
+            <p>Total: R$ <span id="cartTotal">0.00</span></p>
+            <div class="cart-actions">
+               <button id="clearCart">Limpar Carrinho</button>
+               <button id="checkout">Finalizar Compra</button>
+            </div>
+         </div>
+      </section>
+ </main>
+ <script src="script.js" defer></script>
+</body>
+</html>
+</body>
+</html>

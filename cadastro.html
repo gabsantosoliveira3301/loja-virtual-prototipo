@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja virtual prototipo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="top-links">
+     <a href="produtos.html"><button>produtos</button></a>
+     <a href="carrinho.html"><button>carrinho</button> <span id="cartCount" class="cart-badge"></span></a>
+     <a href="login.html"><button>login</button></a>
+     <a href="cadastro.html"><button>cadastro</button></a>
+     <div id="userDisplay" style="margin-left:auto"></div>
+ </div>
+ <main class="container">
+     <h1>Cadastro</h1>
+     <form id="registerForm">
+          <input id="reg_name" type="text" placeholder="nome">
+
+          <input id="reg_login" type="text" placeholder="login" required>
+
+          <input id="reg_password" type="password" placeholder="senha" required>
+
+          <input id="reg_password2" type="password" placeholder="confirme a senha">
+
+          <button type="submit">Cadastrar</button>
+     </form>
+ </main>
+ <script src="script.js" defer></script>
+</body>

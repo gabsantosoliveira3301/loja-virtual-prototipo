@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja virtual prototipo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="top-links">
+     <a href="produtos.html"><button>produtos</button></a>
+     <a href="carrinho.html"><button>carrinho</button> <span id="cartCount" class="cart-badge"></span></a>
+     <a href="login.html"><button>login</button></a>
+     <a href="cadastro.html"><button>cadastro</button></a>
+     <div id="userDisplay" style="margin-left:auto"></div>
+ </div>
+    <main class="container">
+        <h1>Produtos</h1>
+
+        <section id="productsList" class="products-grid">
+            <!-- produtos serão carregados via script -->
+        </section>
+
+        <section id="admin">
+            <h2>Adicionar produto</h2>
+            <form id="productForm">
+                <input id="p_name" type="text" placeholder="Nome do produto" required>
+                <input id="p_price" type="text" placeholder="Preço (ex: 49.90)">
+                <input id="p_image" type="text" placeholder="https://assets.sistemawbuy.com.br/arquivos/625603610e38bb150ddafc9164bf6dda/produtos/65bfea0c12929/capa-aveludada-feminina-capas-para-celular-atacado-jpeg-65f3089ad104e.jpg">
+                <textarea id="p_desc" placeholder="Descrição"></textarea>
+                <button type="submit">Adicionar Produto</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
